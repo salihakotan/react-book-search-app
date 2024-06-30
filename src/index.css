@@ -11,3 +11,77 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header{
+  padding: 20px;
+  text-align: center;
+  background-color: cornflowerblue;
+  color: white;
+}
+
+.pageContent{
+  width:80%;
+  background-color: #d2f7ff;
+  margin: 50px auto;
+  padding: 50px;
+}
+
+
+.footer{
+  padding: 10px;
+  text-align: center;
+  background-color: #333;
+  color: white;
+}
+
+.searchBox{
+  display: flex;
+}
+
+.bookList{
+  grid-template-columns: repeat(4,1fr);
+  display: grid;
+  gap: 20px;
+}
+
+.bookCard{
+  border-radius: 10px;
+  border: 1px solid #9e9e9e;
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.bookCard img{
+  padding: 20px 0 20px 0;
+}
+
+
+.bookCard img{
+  margin: auto;
+}
+
+.bookDetailImage{
+}
+
+.bookDetailBox{
+}
+
+.detailText{
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.headerMenu li{
+  list-style: none;
+  width: fit-content;
+  position: absolute;
+  top: 15px;
+  margin-left: 0;
+  color: #333;
+
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid blue;
+  padding: 10px;
+}
