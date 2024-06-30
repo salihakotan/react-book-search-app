@@ -17,7 +17,7 @@ function BookList() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    if (status === "idle") {
+    if (status === "idle" && search) {
       dispatch(getBooksAsync(search));
       console.log("stat idle");
     }
